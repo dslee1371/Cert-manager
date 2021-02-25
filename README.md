@@ -9,6 +9,10 @@ kubectl get Issuers,ClusterIssuers,Certificates,CertificateRequests,Orders,Chall
 https://cert-manager.io/docs/
 https://www.dogtagpki.org/wiki/OpenShift_cert-manager  - fail
 https://github.com/futuregen-icp/public/blob/main/cert_manger/Cert_manager%20install.md - git
+https://github.com/tnozicka/openshift-acme - openshit (ing) Keith Tenzer
+https://ddii.dev/kubernetes/cert-manager/# - refer example
+https://www.openshift.com/blog/self-serviced-end-to-end-encryption-for-kubernetes-applications-part-2-a-practical-example - refer example openshif
+https://hub.docker.com/r/nginxinc/nginx-unprivileged - nginx unprivileged
 
 ## Lab1 - Install cert manager with openshift
 
