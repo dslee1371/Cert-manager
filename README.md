@@ -23,6 +23,9 @@ oc apply -f https://github.com/jetstack/cert-manager/releases/download/v1.2.0/ce
 ## Creating ACME Issuer
 ## delete cert manager
 oc delete -f https://github.com/jetstack/cert-manager/releases/download/v1.2.0/cert-manager.yaml
+
+## Delete projct
+curl -k -H "Content-Type: application/yaml" -X PUT --data-binary @BACKUP_NAMESPACE.yaml http://127.0.0.1:8001/api/v1/namespaces/DELETABLE_PROJECT/finalize
 ```
 
 ## Work logs 
