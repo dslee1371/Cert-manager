@@ -21,7 +21,8 @@ kubectl get Issuers,ClusterIssuers,Certificates,CertificateRequests,Orders,Chall
 oc apply -f https://github.com/jetstack/cert-manager/releases/download/v1.2.0/cert-manager.yaml
 
 ## Creating ACME Issuer
-
+## delete cert manager
+oc delete -f https://github.com/jetstack/cert-manager/releases/download/v1.2.0/cert-manager.yaml
 ```
 
 ## Work logs 
